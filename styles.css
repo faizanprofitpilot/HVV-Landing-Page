@@ -613,38 +613,6 @@ section::after {
     object-fit: contain;
 }
 
-.leadership-contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-}
-
-.leadership-contact .leadership-linkedin {
-    margin-bottom: 0;
-}
-
-.leadership-email {
-    display: inline-flex;
-    align-items: center;
-    color: var(--white);
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 8px 16px;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    transition: all 0.3s ease;
-}
-
-.leadership-email:hover {
-    background: rgba(255, 255, 255, 0.25);
-    transform: translateY(-2px);
-}
-
 /* Hero text slow fade animation */
 .headline.fade-in-up {
     opacity: 0;
@@ -952,6 +920,24 @@ section::after {
     font-weight: 400;
     margin-bottom: 8px;
     line-height: 1.6;
+}
+
+.footer-email {
+    font-size: 15px;
+    color: var(--dark-navy);
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.footer-email a {
+    color: var(--primary-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: var(--dark-navy);
+    text-decoration: underline;
 }
 
 .footer-social {
